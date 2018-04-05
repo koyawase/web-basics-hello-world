@@ -19,6 +19,7 @@ $(function() {
 
 function ohHi() {
 	 $("#results-area").text("Oh Hi!");
+	 displayQuestionAndAnswer("Is this a question","Yes");
 }
 
 function displayQuestionAndAnswer(question, answer) {
